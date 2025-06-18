@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Header & Navigation */
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.cta {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Features & Pricing */
+.feature-list, .pricing-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature, .plan {
+    background: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Testimonials */
+.testimonial {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Contact Form */
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+form button {
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
